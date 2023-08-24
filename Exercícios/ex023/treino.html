@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando Tabela</title>
+    <style>
+
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding-right: 10px;
+            border-collapse: collapse;
+        }
+
+        td.pago {
+            background-color: rgb(169, 218, 120);
+            text-align: center;
+        }
+
+        tr.header {
+            background-color: yellow;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recriando planilha de Custos Mensais</h1>
+
+    <table>
+        
+        <tr class="header">
+            <td>Item</td>
+            <td>Vencimento</td>
+            <td>Valor</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>Aluguel</td>
+            <td>05/08/2023</td>
+            <td>R$ 500,00</td>
+            <td class="pago">Pago</td>
+        </tr>
+        <tr>
+            <td>Consignado Itaú</td>
+            <td>05/08/2023</td>
+            <td>R$ 300,00</td>
+            <td class="pago">Pago</td>
+        </tr>
+        <tr>
+            <td>Net Claro</td>
+            <td>08/08/2023</td>
+            <td>R$ 157,00</td>
+            <td class="pago">Pago</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
